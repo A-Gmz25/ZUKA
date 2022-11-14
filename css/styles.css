@@ -92,6 +92,16 @@ body {
 .page-section.icons{
   color: white;
 }
+.page-section h3{
+  color: black;
+}
+.page-section p{
+  color: black;
+}
+.color__fondo{
+  background-color: #ECF0F1
+  ;
+}
 
 hr {
   margin: 1rem 0;
@@ -11398,9 +11408,9 @@ hr.divider-light {
 }
 
 header.masthead {
-  padding-top: 10rem;
-  padding-bottom: calc(10rem - 4.5rem);
-  background: url("../assets/img/zuka_principal.jpg");
+  padding-top: 13rem;
+  padding-bottom: 7rem;
+  background: url("../assets/img/zuka2.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11409,6 +11419,9 @@ header.masthead {
 header.masthead h1, header.masthead .h1 {
   font-size: 2.25rem;
 }
+
+
+  
 @media (min-width: 992px) {
   header.masthead {
     height: 100vh;
@@ -11421,7 +11434,7 @@ header.masthead h1, header.masthead .h1 {
   }
   header.masthead h1, header.masthead .h1 {
     font-size: 3rem;
-  }
+  }box
 }
 @media (min-width: 1200px) {
   header.masthead h1, header.masthead .h1 {
@@ -11448,7 +11461,7 @@ header.masthead h1, header.masthead .h1 {
   text-align: center;
   opacity: 0;
   color: #fff;
-  background: rgba(244, 98, 58, 0.9);
+  background: lightblue;
   transition: opacity 0.25s ease;
   text-align: center;
 }
